@@ -203,9 +203,9 @@ class WebsiteDebugger {
 // Auto-run when script is loaded
 if (typeof window !== 'undefined') {
     window.addEventListener('DOMContentLoaded', async () => {
-        const debugger = new WebsiteDebugger();
-        await debugger.testAllResources();
-        const report = debugger.displayReport();
+        const siteDebugger = new WebsiteDebugger();
+        await siteDebugger.testAllResources();
+        const report = siteDebugger.displayReport();
         
         // Display fixes
         const fixes = debugger.suggestFixes();
@@ -223,7 +223,7 @@ if (typeof window !== 'undefined') {
         window.debugResults = {
             report: report,
             fixes: fixes,
-            testResults: debugger.testResults
+            testResults: siteDebugger.testResults
         };
     });
 }

@@ -1,1 +1,29 @@
-<!DOCTYPE html><html><script nonce="9jXfxfIY4G54q4ApgVsRqQ">window.location = 'https:\/\/6000-firebase-studio-1753453116504.cluster-ejd22kqny5htuv5dfowoyipt52.cloudworkstations.dev\/_workstation\/login?redirect\x3deyJ0b2tlbiI6IlFOVUk5NXpwakxMNDVlcDZ4VUxjMkEiLCJ0YXJnZXRfaG9zdCI6IjYwMDAtZmlyZWJhc2Utc3R1ZGlvLTE3NTM0NTMxMTY1MDQuY2x1c3Rlci1lamQyMmtxbnk1aHR1djVkZm93b3lpcHQ1Mi5jbG91ZHdvcmtzdGF0aW9ucy5kZXYiLCJhdXRodXNlciI6IiIsIndvcmtzdGF0aW9uX25hbWUiOiJwcm9qZWN0cy9tb25vc3BhY2UtNi9sb2NhdGlvbnMvYXNpYS1lYXN0MS93b3Jrc3RhdGlvbkNsdXN0ZXJzL3dvcmtzdGF0aW9uLWNsdXN0ZXItMTAvd29ya3N0YXRpb25Db25maWdzL21vbm9zcGFjZS1jb25maWctd2ViL3dvcmtzdGF0aW9ucy9maXJlYmFzZS1zdHVkaW8tMTc1MzQ1MzExNjUwNCIsIndvcmtzdGF0aW9uX2NvbnN1bWVyX3Byb2plY3RfbnVtYmVyIjoiNTEyMDI2OTMxNiJ9\x26workstation_jwt\x3deyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2Nsb3VkLmdvb2dsZS5jb20vd29ya3N0YXRpb25zIiwiYXVkIjoiZmlyZWJhc2Utc3R1ZGlvLTE3NTM0NTMxMTY1MDQuY2x1c3Rlci1lamQyMmtxbnk1aHR1djVkZm93b3lpcHQ1Mi5jbG91ZHdvcmtzdGF0aW9ucy5kZXYiLCJpYXQiOjE3NTYyOTU0MjYsImV4cCI6MTc1NjM4MTgyNn0.IuoSQkhIraWRpOl9t3MX_GmZaxM3d1MigprMPYUxIkqIdwPx7vhRfifqd0URmlngISh7vOeXzHKNijpQggTIGvNthbmty3eWEk761xSXlL0hsGygfXOYc7XTewk2lfLp74KuvtydCKs5LUS0vUsMc4mW3FgjD3MOIjO1QvMm8oX6cf-_OD5TjWhV21NmTCF0alpwAbQ2DlQoSHMwXYiZomGdRtfxpk3J3ylRpggm_I_uBtaeIyRwRNAuWJvcQrxr5zeLUAjatDxnvTr3n7cl5CR-xVd9LWd1mBvAh_wJgpOQgf6JU0XLkqLGLsaLPCDI3ylestlwWpIVecetsTYb5w'</script><body></body></html>
+/* Local replacement stylesheet for Firebase Studio preview */
+
+:root {
+  --bg: #1f1f1f;
+  --fg: #e1dfdf;
+  --card: #292929;
+  --border: #494949;
+  --accent: #7895ff;
+  --accent-2: #88a3ff;
+  --error: #f76769;
+  --warn: #ffa23e;
+  --ok: #66ce98;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+}
+
+.container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+.btn { background: var(--accent); color: #000; border: 0; padding: 10px 16px; border-radius: 6px; cursor: pointer; }
+.btn:hover { background: var(--accent-2); }
+.error { color: var(--error); }
+.warning { color: var(--warn); }
+.success { color: var(--ok); }
