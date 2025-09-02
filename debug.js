@@ -208,7 +208,7 @@ if (typeof window !== 'undefined') {
         const report = siteDebugger.displayReport();
         
         // Display fixes
-        const fixes = debugger.suggestFixes();
+        const fixes = siteDebugger.suggestFixes();
         if (fixes.length > 0) {
             console.log('\n=== SUGGESTED FIXES ===');
             fixes.forEach((fix, index) => {
